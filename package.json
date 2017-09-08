@@ -1,11 +1,9 @@
 {
   "name": "true-arity",
   "description": "Returns function arity (number of possible arguments) supports all ES6 features including argument destructor and default.",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author": "Roee Yudilevtich (RoeeYud@gmail.com)",
-  "devDependencies": {
-
-  },
+  "devDependencies": {},
   "keywords": [
     "arity"
   ],
@@ -13,5 +11,8 @@
   "main": "arity",
   "scripts": {
     "test": "make test"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
   }
 }

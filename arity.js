@@ -1,4 +1,5 @@
-export default function (func) {
+const _ = require('lodash');
+module.exports = function (func) {
     const result = /\(\s*([^)]+?)\s*\)/.exec(func);
     if (_.isEmpty(result[1])) {
         return 0;
