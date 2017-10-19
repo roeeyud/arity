@@ -20,4 +20,18 @@ describe('arity', () => {
         function testFn() {}
         expect(arity(testFn)).toBe(0);
     });
+
+    it('failed with this fn before', function () {
+        function testFn(id, options, dispatch = () => null) {
+            return dispatch({
+                resource: 'a',
+                method: 'b',
+                path: 'c',
+                payload: id,
+                options,
+            });
+        }
+
+        expect(arity(testFn)).toBe(3);
+    })
 });
