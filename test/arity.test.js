@@ -33,5 +33,5 @@ describe('arity', () => {
         }
 
         expect(arity(testFn)).toBe(3);
-    })
+    });
 });
