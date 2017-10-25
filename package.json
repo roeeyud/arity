@@ -1,9 +1,11 @@
 {
   "name": "yudarity",
   "description": "Returns function arity (number of possible arguments) supports all ES6 features including argument destructor and default.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Roee Yudilevtich (RoeeYud@gmail.com)",
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^21.0.2"
+  },
   "keywords": [
     "arity"
   ],
@@ -17,6 +19,5 @@
     "test": "./node_modules/.bin/jest"
   },
   "dependencies": {
-    "jest": "^21.0.2"
   }
 }
